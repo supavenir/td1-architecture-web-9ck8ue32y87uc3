@@ -1,7 +1,7 @@
 # 🧾 En-têtes HTTP
 
 > Les en-têtes HTTP permettent de transporter des **informations supplémentaires** dans les requêtes et réponses HTTP.  
-> Ils sont essentiels pour la négociation de contenu, la gestion des sessions, la sécurité, etc.
+> Ils sont essentiels pour la négociation de contenu, la gestion des sessions, etc.
 
 ---
 
@@ -53,3 +53,4 @@ curl -i http://dev.local -H "Accept: application/json" -H "User-Agent: curl/8.7.
 | `Vary`               | Dépendance de la réponse à un header  | `Accept-Language`, `Accept-Encoding`      |
 | `WWW-Authenticate`   | Demande d’authentification            | `Basic realm="Secure Zone"`               |
 | `Server`             | Info sur le serveur (optionnel)       | `Apache/2.4.54 (Win64)`                   |
+
