@@ -16,7 +16,6 @@
 
 Voici un tableau récapitulatif des principales familles avec exemples :
 
-```markdown
 | Famille | Signification            | Exemple | Description courte                     | Cas d’usage typique                     |
 |---------|--------------------------|---------|----------------------------------------|-----------------------------------------|
 | `1xx`   | Information               | `100` Continue     | Le serveur a bien reçu la requête initiale | Communication continue, upgrade         |
@@ -24,7 +23,6 @@ Voici un tableau récapitulatif des principales familles avec exemples :
 | `3xx`   | Redirection              | `302` Found        | Le client doit faire une autre requête | Redirection temporaire, login            |
 | `4xx`   | Erreur côté client       | `404` Not Found    | La ressource n’existe pas              | Mauvaise URL, fichier manquant           |
 | `5xx`   | Erreur côté serveur      | `500` Internal Server Error | Erreur serveur                       | Problème interne, crash, exception       |
-```
 
 ---
 
@@ -46,3 +44,4 @@ Voici un tableau récapitulatif des principales familles avec exemples :
 | 502  | 5xx     | Bad Gateway              | Mauvaise réponse du serveur en amont (reverse proxy)           | Proxy reçoit une erreur d’un autre serveur                |
 | 503  | 5xx     | Service Unavailable      | Serveur indisponible ou en maintenance                         | Maintenance planifiée ou surcharge                        |
 | 504  | 5xx     | Gateway Timeout          | Timeout d’un serveur intermédiaire (proxy ou gateway)          | Backend lent ou injoignable                               |
+
