@@ -14,7 +14,7 @@
 
 ## 🗂️ Familles de codes de statut
 
-Voici un tableau récapitulatif des principales familles avec exemples :
+Voici un tableau récapitulatif avec exemples :
 
 | Famille | Signification            | Exemple | Description courte                     | Cas d’usage typique                     |
 |---------|--------------------------|---------|----------------------------------------|-----------------------------------------|
@@ -44,4 +44,5 @@ Voici un tableau récapitulatif des principales familles avec exemples :
 | 502  | 5xx     | Bad Gateway              | Mauvaise réponse du serveur en amont (reverse proxy)           | Proxy reçoit une erreur d’un autre serveur                |
 | 503  | 5xx     | Service Unavailable      | Serveur indisponible ou en maintenance                         | Maintenance planifiée ou surcharge                        |
 | 504  | 5xx     | Gateway Timeout          | Timeout d’un serveur intermédiaire (proxy ou gateway)          | Backend lent ou injoignable                               |
+
 
