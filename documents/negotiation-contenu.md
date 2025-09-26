@@ -63,7 +63,7 @@ Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
 
 ### Réponse serveur (version française servie)
 
-```http
+```
 HTTP/1.1 200 OK
 Content-Type: text/html; charset=utf-8
 Content-Language: fr-FR
@@ -84,3 +84,4 @@ Vary: Accept-Language
 - La négociation de contenu améliore l’expérience utilisateur en adaptant la réponse.
 - Elle repose sur des en-têtes standards très utilisés.
 - Elle nécessite une bonne gestion côté serveur pour gérer les variantes.
+
