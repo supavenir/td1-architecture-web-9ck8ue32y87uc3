@@ -58,7 +58,7 @@ Voir détails dans la section [Curl & Virtual Host](curl-exemples.md#🧪-tests-
 | Partie | État | Notes |
 |--------|------|-------|
 | Méthodes GET/POST | ✅ Fait | Exemples |
-| Headers HTTP | ❌ Non-Fait | Liste + explications + curl |
+| Headers HTTP | ✅ Fait | Liste + explications + curl |
 | Status HTTP | ❌ Non-Fait | Familles + cas d’usage |
 | Décomposition URL | ❌ Non-Fait | Tableau explicatif |
 | Négociation contenu | ❌ Non-Fait | Headers `Accept`, `Vary`, etc. |
@@ -73,4 +73,5 @@ Voir détails dans la section [Curl & Virtual Host](curl-exemples.md#🧪-tests-
 - 🧼 Commits réguliers et propres (`git log` clean)
 - 🛑 Aucune capture d’écran sans contexte/commentaire
 - 💬 Chaque réponse est commentée et justifiée
+
 
