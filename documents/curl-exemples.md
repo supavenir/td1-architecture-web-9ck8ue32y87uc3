@@ -99,5 +99,4 @@ curl -o ./monfichier.zip http://dev.local/download/monfichier.zip
 Commentaire
 
 - `-O` conserve le nom du fichier d’origine.
-
 - `-o` permet de choisir un nom/localisation différente.
