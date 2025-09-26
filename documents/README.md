@@ -48,8 +48,6 @@ bloc1/
 ## 🛠️ À propos du virtual host
 
 Virtual host configuré pour `http://dev.local` via Apache + XAMPP.  
-Voir détails dans la section [Curl & Virtual Host](curl-exemples.md#🧪-tests-curl-avec-devlocal)
-
 
 ---
 
@@ -60,10 +58,10 @@ Voir détails dans la section [Curl & Virtual Host](curl-exemples.md#🧪-tests-
 | Méthodes GET/POST | ✅ Fait | Exemples |
 | Headers HTTP | ✅ Fait | Liste + explications + curl |
 | Status HTTP | ✅ Fait | Familles |
-| Décomposition URL | ❌ Non-Fait | Tableau explicatif |
-| Négociation contenu | ❌ Non-Fait | Headers `Accept`, `Vary`, etc. |
-| Curl | ❌ Non-Fait | Commandes, réponses commentées |
-| Virtual host | ❌ Non-Fait | Apache + `dev.local` OK |
+| Décomposition URL | ✅ Fait | Tableau explicatif |
+| Négociation contenu | ✅ Fait | Headers `Accept` etc. |
+| Curl | ✅ Fait | Commandes, réponses commentées |
+| Virtual host | ✅ Fait | `dev.local` OK |
 
 ---
 
@@ -73,6 +71,7 @@ Voir détails dans la section [Curl & Virtual Host](curl-exemples.md#🧪-tests-
 - 🧼 Commits réguliers et propres (`git log` clean)
 - 🛑 Aucune capture d’écran sans contexte/commentaire
 - 💬 Chaque réponse est commentée et justifiée
+
 
 
 
