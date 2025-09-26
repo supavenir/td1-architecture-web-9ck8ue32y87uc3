@@ -79,7 +79,7 @@ Vary: Accept-Language
 
 ---
 
-###🧠 Résumé
+### 🧠 Résumé
 
 - La négociation de contenu améliore l’expérience utilisateur en adaptant la réponse.
 - Elle repose sur des en-têtes standards très utilisés.
