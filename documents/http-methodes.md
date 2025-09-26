@@ -18,13 +18,11 @@ Objectifs :
 ## 🔎 Exemple 1 – Requête `GET`
 
 ### 📍 URL
-
 ```text
 http://dev.local/
 ```
 
 ### 📨 Requête
-
 ```bash
 curl -i "http://dev.local/search?q=chatgpt"
 ```
@@ -88,4 +86,5 @@ Content-Length: 29
 HTTP/1.1 302 Found
 Location: /dashboard
 Set-Cookie: sessionId=xyz123
+
 ```
