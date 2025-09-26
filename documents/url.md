@@ -6,7 +6,7 @@
 
 ## 📌 Structure d’une URL complète
 
-```text
+```bash
 schéma://identifiants@hôte:port/chemin?requête#fragment
 ```
 
@@ -37,3 +37,4 @@ https://john:doe@api.example.com:8443/data/files?q=test&type=json#download
 | **Chemin**    | `/api/v1/resources`    | Chemin vers la ressource sur le serveur                         |
 | **Requête**   | `q=abc&page=2`         | Optionnel, paramètres de la requête (query string)              |
 | **Fragment**  | `section-3`            | Optionnel, ancre dans la page (non envoyée au serveur)          |
+
